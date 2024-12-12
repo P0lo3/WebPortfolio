@@ -1,0 +1,356 @@
+
+body {
+
+}
+
+.home__body {
+    position: relative;
+
+
+}
+
+.profileimg {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+
+.home__main {
+    /* background-color: var(--tertiary-color); */
+    position: relative;
+    grid-area: main;
+    width: 100%;
+}
+
+.banner__main {
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "maintopleft mainmid mainright"
+        "mainbotleft mainmid mainright" ;
+    gap: 15px;  
+}
+
+
+.mainmid {
+    grid-area: mainmid;
+}
+
+.mainmid img {
+    height: 100%;
+    background-color: transparent;
+}
+
+/* https://dev.to/rolandixor/creating-glass-with-css-3-methods-styles-2kdm */
+.glass0 {
+    box-shadow: inset 0 0 50px 100px rgba(135, 135, 135, .1), 0 0 18px 3px rgba(0, 0, 0, .3);
+}
+
+.maintopleft {
+    grid-area: maintopleft;
+    background-color: #f0dfc860;
+    border-radius: 1rem;
+
+
+}
+
+.maintopleft div {
+    position: relative;
+    font-size: large;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.h3skills {
+    color: var(--primary-color);
+}
+
+.h1card {
+    position: relative;
+    padding: 10px;
+    justify-self: center;
+    top: 50%;
+    transform: translate(0, -50%);
+
+}
+
+.h1card h1 {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.h1line1 {
+    color: var(--primary-color);
+    text-shadow: 0.5px 0.5px 1px var(--text-color);
+
+
+}
+
+.h1ln1function {
+    color: var(--function-color);
+    text-shadow: 2px 2px var(--secondary-color);
+
+}
+
+.bracket {
+    color: var(--bracket-color);
+    text-shadow: 2px 2px var(--secondary-color);
+}
+
+.h1line2 {
+    color: var(--comment-color);
+    text-shadow: 0.5px 0.5px 1px var(--text-color);
+
+}
+
+.h1line3 {
+    color: var(--secondary-color);
+    text-shadow: 0.5px 0.5px 1px var(--text-color);
+
+}
+
+.bracket {
+    color: var(--bracket-color);
+    text-shadow: 2px 2px var(--secondary-color);
+}
+
+.mainbotleft {
+    grid-area: mainbotleft;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.datetime {
+    position: relative;
+    width: 100%;
+
+    text-align: center;
+}
+
+.mainright {
+    grid-area: mainright;
+    position: relative;
+}
+
+.right-container {
+    position: relative;
+    top: 10%;
+}
+
+.mainskills {
+    /* border-style: solid; */
+    padding: 20px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    width: 50%;
+
+}
+
+.frontendlist {
+    border-width: 2px;
+    border-color: var(--secondary-color);
+
+
+}
+
+.frontlistitem {
+    padding-bottom: 1rem;
+}
+
+.backendlistitem {
+    padding-bottom: 1rem;
+}
+
+.frontendcontainer {
+    width: 100%;
+    border-radius: 2rem;
+    border: solid;
+    border-color: var(--primary-color);
+}
+
+.backendcontainer {
+
+    width: 100%;
+    border-radius: 2rem;
+    border: solid;
+
+    border-color: var(--primary-color);
+
+}
+
+.frontendskillshtml {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.skills {
+    color: white;
+}
+
+.html {width: 80%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;} 
+.CSS {width: 80%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;}
+.JAVASCRIPT {width: 60%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;}
+.JQUERY {width: 60%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;}
+
+.NODEJS {width: 70%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;} 
+.EXPRESSJS {width: 60%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;} 
+.EJS {width: 70%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;} 
+
+
+
+.banner {
+    position:relative;
+    /* background-color: red; */
+    height: 100%;
+}
+
+.banner #dotsCanvas {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.timer {
+    background-color: #f0dfc860;
+    font-size: large;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    color: var(--text-color);
+    border-radius: 1rem;
+    padding: 2px;
+
+}
+
+
+
+
+
+/* Calendar CSS */
+.calendar-container {
+    background: var(--secondary-color);
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.calendar-container header {
+    display: flex;
+    align-items: center;
+    padding: 5px 3px 1px;
+    justify-content: space-between;
+}
+
+.calendar-header {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div .calendar-navigation {
+    display: flex;
+    align-items: center;
+}
+
+div .calendar-navigation span {
+    height: 30px;
+    width: 30px;
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    user-select: none;
+    color: #aeabab;
+    font-size: 0.9rem;
+}
+
+.calendar-navigation span:last-child {
+    margin-right: -10px;
+}
+
+div .calendar-navigation span:hover {
+    background: #f2f2f2;
+}
+
+div .calendar-current-date {
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 10px;
+    color: var(--text-color)
+}
+
+.calendar-body {
+    padding: 2px;
+}
+
+.calendar-body ul {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+
+.calendar-body .calendar-dates {
+    margin-bottom: 10px;
+}
+
+.calendar-body li {
+    width: calc(100% / 7);
+    font-size: 0.77rem;
+    color: var(--text-color);
+}
+
+.calendar-body .calendar-weekdays li {
+    cursor: default;
+    font-weight: 500;
+}
+
+.calendar-body .calendar-dates li {
+    margin-top: 18px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.calendar-dates li.inactive {
+    color: #aaa;
+}
+
+.calendar-dates li.active {
+    color: #fff;
+}
+
+.calendar-dates li::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calendar-dates li.active::before {
+    background: var(--tertiary-color);
+}
+
+.calendar-dates li:not(.active):hover::before {
+    background: #e4e1e1;
+}
