@@ -52,18 +52,11 @@ body {
 }
 
 .maintopleft {
-<<<<<<< HEAD
-    grid-area: maintopleft;
-    background-color: #f0dfc860;
-    border-radius: 1rem;
-
-=======
     background-color: var(--primary-ter-color);
     border-radius: 1rem;
     position: relative;
     left: 180px;
     opacity: 90%;
->>>>>>> 2b05a9d (Adding About Page)
 
 }
 
@@ -76,23 +69,13 @@ body {
 }
 
 .h3skills {
-<<<<<<< HEAD
-    color: var(--primary-color);
-=======
     color: whitesmoke;
->>>>>>> 2b05a9d (Adding About Page)
 }
 
 .h1card {
     position: relative;
     padding: 10px;
-<<<<<<< HEAD
-    justify-self: center;
     top: 50%;
-    transform: translate(0, -50%);
-=======
-    top: 50%;
->>>>>>> 2b05a9d (Adding About Page)
 
 }
 
@@ -102,13 +85,8 @@ body {
 }
 
 .h1line1 {
-<<<<<<< HEAD
-    color: var(--primary-color);
-    text-shadow: 0.5px 0.5px 1px var(--text-color);
-=======
     color: var(--primary-sec-color);
     /* text-shadow: 0.5px 0.5px 1px var(--text-color); */
->>>>>>> 2b05a9d (Adding About Page)
 
 
 }
@@ -126,22 +104,13 @@ body {
 
 .h1line2 {
     color: var(--comment-color);
-<<<<<<< HEAD
-    text-shadow: 0.5px 0.5px 1px var(--text-color);
-=======
     /* text-shadow: 0.5px 0.5px 1px var(--text-color); */
->>>>>>> 2b05a9d (Adding About Page)
 
 }
 
 .h1line3 {
-<<<<<<< HEAD
-    color: var(--secondary-color);
-    text-shadow: 0.5px 0.5px 1px var(--text-color);
-=======
     color: var(--secondary-sec-color);
     /* text-shadow: 0.5px 0.5px 1px var(--text-color); */
->>>>>>> 2b05a9d (Adding About Page)
 
 }
 
@@ -175,26 +144,11 @@ body {
     top: 10%;
 }
 
-<<<<<<< HEAD
-.mainskills {
-=======
 .developerskills {
->>>>>>> 2b05a9d (Adding About Page)
     /* border-style: solid; */
     padding: 20px;
     color: var(--secondary-color);
     font-weight: bold;
-<<<<<<< HEAD
-    width: 50%;
-
-}
-
-.frontendlist {
-    border-width: 2px;
-    border-color: var(--secondary-color);
-
-
-=======
     width: 100%;
 
 }
@@ -224,7 +178,6 @@ body {
 
 .frontendcontainer div {
     padding: 5px;
->>>>>>> 2b05a9d (Adding About Page)
 }
 
 .frontlistitem {
@@ -235,16 +188,7 @@ body {
     padding-bottom: 1rem;
 }
 
-<<<<<<< HEAD
-.frontendcontainer {
-    width: 100%;
-    border-radius: 2rem;
-    border: solid;
-    border-color: var(--primary-color);
-}
-=======
 
->>>>>>> 2b05a9d (Adding About Page)
 
 .backendcontainer {
 
@@ -253,15 +197,9 @@ body {
     border: solid;
 
     border-color: var(--primary-color);
-<<<<<<< HEAD
-
-}
-
-=======
 }
 
 
->>>>>>> 2b05a9d (Adding About Page)
 .frontendskillshtml {
     text-align: right;
     padding-top: 10px;
@@ -273,16 +211,6 @@ body {
     color: white;
 }
 
-<<<<<<< HEAD
-.html {width: 80%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;} 
-.CSS {width: 80%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;}
-.JAVASCRIPT {width: 60%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;}
-.JQUERY {width: 60%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;}
-
-.NODEJS {width: 70%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;} 
-.EXPRESSJS {width: 60%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;} 
-.EJS {width: 70%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;} 
-=======
 .ejs {
     grid-column: 1 / span 3;
 }
@@ -307,7 +235,6 @@ body {
 .PYTHON {width: 100%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;} 
 .JAVA {width: 100%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;} 
 .CISCO {width: 100%; background-color: var(--secondary-color); border-radius: 2rem; text-align: center;} 
->>>>>>> 2b05a9d (Adding About Page)
 
 
 

@@ -10,21 +10,13 @@ canvas.height = canvas.offsetHeight;
 let ctx = canvas.getContext('2d');
 
 let dots = [];
-<<<<<<< HEAD
-let arrayColors = ["#51abb2", "#795833", "#e16539", "#303030", "#ffb1a5"]
-=======
 let arrayColors = ["#013953", "#045174", "#3b769b", "#af5b00", "#e87a00", "#f8dcbf"]
->>>>>>> 2b05a9d (Adding About Page)
 for (let index = 0; index < 50; index++) {
     dots.push({
         x: Math.floor(Math.random() * canvas.width),
         y: Math.floor(Math.random() * canvas.height),
         size: Math.random() * 3 + 5,
-<<<<<<< HEAD
-        color: arrayColors[Math.floor(Math.random() * 5)]
-=======
         color: arrayColors[Math.floor(Math.random() * 6)]
->>>>>>> 2b05a9d (Adding About Page)
     });
 }
 console.log(dots)
@@ -61,10 +53,6 @@ banner.addEventListener('mousemove', (event) => {
 banner.addEventListener('mouseout', () => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     drawDots();
-<<<<<<< HEAD
-})
-=======
 })
 
 
->>>>>>> 2b05a9d (Adding About Page)
