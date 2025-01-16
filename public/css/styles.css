@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
     --background-color: #f0dfc8;  /* Define your color */
     --primary-color: #51abb2;
     --offbrown-color: #795833;
@@ -9,6 +10,21 @@
     --bracket-color: #FFDE59;
     --function-color: #FFDE59;
     --comment-color: #3DD002;
+=======
+    --background-color: #001f3d;  /* Define your color */
+    --primary-color: #013953;
+    --primary-sec-color:#045174;
+    --primary-ter-color:#3b769b;
+    --secondary-color: #af5b00;
+    --secondary-sec-color: #e87a00;
+    --secondary-ter-color: #f8dcbf;
+
+    --text-color: white;
+
+    --bracket-color: #FFDE59;
+    --function-color: #FFDE59;
+    --comment-color: #33a208;
+>>>>>>> 2b05a9d (Adding About Page)
 
 
     font-family: 'JetBrains Mono', 'Inter', 'sans-serif';
@@ -25,7 +41,11 @@
 
 
 .logoname {
+<<<<<<< HEAD
     color: var(--primary-color);
+=======
+    color: whitesmoke;
+>>>>>>> 2b05a9d (Adding About Page)
     text-shadow: 1px 2px 1.5px var(--offbrown-color);
 
 }
@@ -82,7 +102,11 @@ body {
 }
 
 .nav__link {
+<<<<<<< HEAD
     color: var(--primary-color);
+=======
+    color: whitesmoke;
+>>>>>>> 2b05a9d (Adding About Page)
     font-size: 15px;
     transition: all 0.4s;
 }
