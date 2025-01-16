@@ -1,23 +1,19 @@
 <!-- reference
     youtube : https://www.youtube.com/watch?v=NnniXasJIpY&t=678s -->
 
-<%- include('partials/header.ejs') %>
+    <%- include('partials/header.ejs') %>
 
-<main class="home__body">
-<<<<<<< HEAD
-=======
-</main>
->>>>>>> 2b05a9d (Adding About Page)
-
-    <!-- <section class="home__sidebar">
-        
-    </section> -->
-
-<<<<<<< HEAD
+    <main class="home__body">
+    </main>
+    
+        <!-- <section class="home__sidebar">
+            
+        </section> -->
+    
     <section class="home__main">
         <div class="banner">
             <canvas id="dotsCanvas"></canvas>
-
+    
             <div class="banner__main">
                     <div class="maintopleft">
                         <div class="h1card">
@@ -38,13 +34,11 @@
                             <div class="calendar-header">
                                 <p class="calendar-current-date"></p>
                                 <div class="calendar-navigation">
-                                    <span id="calendar-prev" 
-                                          class="material-symbols-rounded">
-                                        <
+                                    <span id="calendar-prev" class="material-symbols-rounded">
+                                        
                                     </span>
-                                    <span id="calendar-next" 
-                                          class="material-symbols-rounded">
-                                        >
+                                    <span id="calendar-next" class="material-symbols-rounded">
+                                        
                                     </span>
                                 </div>
                             </div>
@@ -68,219 +62,109 @@
                 </div>
                     <div class="mainright">
                         <div class="right-container">
-                        <h3 class="h3skills"><span class="bracket">{</span> Skills<span class="dots">...</span> <span class="bracket">}</span></h3>
-                        <div class="mainskills">
-                            <div class="frontendskills">
+                        <h3 class="h3skills"><span class="bracket">{</span> Developer Skills<span class="dots">...</span> <span class="bracket">}</span></h3>
+                        <div class="developerskills">
+                            <p>Proficient</p>
+                            <div class="proficientskills">
                                 <ul class="frontendlist">
                                     <li class="frontlistitem">
-                                        <p>HTML</p>
                                         <div class="frontendcontainer">
-                                            <div class="skills html">80%</div>
+                                            <div class="skills html">HTML</div>
                                         </div>
                                     </li>
                                     <li class="frontlistitem">
-                                        <p>CSS</p>
                                         <div class="frontendcontainer">
-                                            <div class="skills CSS">80%</div>
+                                            <div class="skills CSS">CSS</div>
                                         </div>
                                     </li>
                                     <li class="frontlistitem">
-                                        <p>JAVASCRIPT</p>
                                         <div class="frontendcontainer">
-                                            <div class="skills JAVASCRIPT">60%</div>
+                                            <div class="skills JAVASCRIPT">JAVASCRIPT</div>
                                         </div>
                                     </li>
                                     <li class="frontlistitem">
-                                        <p>JQUERY</p>
                                         <div class="frontendcontainer">
-                                            <div class="skills JQUERY">60%</div>
+                                            <div class="skills JQUERY">JQUERY</div>
+                                        </div>
+                                    </li>
+                                    <li class="frontlistitem">
+                                        <div class="frontendcontainer">
+                                            <div class="skills NODEJS">NODE JS</div>
+                                        </div>
+                                    </li>
+                                    <li class="frontlistitem">
+                                        <div class="frontendcontainer">
+                                            <div class="skills EXPRESSJS">EXPRESS JS</div>
+                                        </div>
+                                    </li>
+                                    <li class="frontlistitem ejs">
+                                        <div class="frontendcontainer">
+                                            <div class="skills EJS">EJS Embedded Javascript</div>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="backendskills">
-                                <ul class="backendlist">
-                                    <li class="backendlistitem">
-                                        <p>NODE.JS</p>
-                                        <div class="backendcontainer">
-                                            <div class="skills NODEJS">70%</div>
-                                        </div>
-                                    </li>
-                                    <li class="backendlistitem">
-                                        <p>EXPRESS.JS</p>
-                                        <div class="backendcontainer">
-                                            <div class="skills EXPRESSJS">60%</div>
-                                        </div>
-                                    </li>
-                                    <li class="backendlistitem">
-                                        <p>EJS (Embeded Javascript)</p>
-                                        <div class="backendcontainer">
-                                            <div class="skills EJS">70%</div>
-=======
-<section class="home__main">
-    <div class="banner">
-        <canvas id="dotsCanvas"></canvas>
-
-        <div class="banner__main">
-                <div class="maintopleft">
-                    <div class="h1card">
-                        <h1 class="h1line1">Hey_There<span class="h1ln1function">()</span> <span class="bracket">{</span></h1>
-                        <h1 class="h1line2">// Junior Web Developer</h1>
-                        <h1 class="h1line3">"I'm, Marko Schoonraad"</h1>
-                        <h1 class="h1line4"><span class="bracket">}</span></h1>
-                    </div>
-                </div>
-                <div class="mainbotleft">
-                    <div class="datetime">
-                        <div class="timer glass0">
-                            <div class="timeheading"><h3>Current Time</h3></div>
-                            <div id="time" class="timecounter"></div>
-                        </div>
-                    </div>
-                    <div class="calendar-container">
-                        <div class="calendar-header">
-                            <p class="calendar-current-date"></p>
-                            <div class="calendar-navigation">
-                                <span id="calendar-prev" class="material-symbols-rounded">
-                                    
-                                </span>
-                                <span id="calendar-next" class="material-symbols-rounded">
-                                    
-                                </span>
-                            </div>
-                        </div>
-                
-                        <div class="calendar-body">
-                            <ul class="calendar-weekdays">
-                                <li>Sun</li>
-                                <li>Mon</li>
-                                <li>Tue</li>
-                                <li>Wed</li>
-                                <li>Thu</li>
-                                <li>Fri</li>
-                                <li>Sat</li>
-                            </ul>
-                            <ul class="calendar-dates"></ul>
-                        </div>
-                    </div>
-                </div>
-            <div class="mainmid">
-                <img src="/images/profileTrans.png" class="profileimg">
-            </div>
-                <div class="mainright">
-                    <div class="right-container">
-                    <h3 class="h3skills"><span class="bracket">{</span> Developer Skills<span class="dots">...</span> <span class="bracket">}</span></h3>
-                    <div class="developerskills">
-                        <p>Proficient</p>
-                        <div class="proficientskills">
-                            <ul class="frontendlist">
-                                <li class="frontlistitem">
-                                    <div class="frontendcontainer">
-                                        <div class="skills html">HTML</div>
-                                    </div>
-                                </li>
-                                <li class="frontlistitem">
-                                    <div class="frontendcontainer">
-                                        <div class="skills CSS">CSS</div>
-                                    </div>
-                                </li>
-                                <li class="frontlistitem">
-                                    <div class="frontendcontainer">
-                                        <div class="skills JAVASCRIPT">JAVASCRIPT</div>
-                                    </div>
-                                </li>
-                                <li class="frontlistitem">
-                                    <div class="frontendcontainer">
-                                        <div class="skills JQUERY">JQUERY</div>
-                                    </div>
-                                </li>
-                                <li class="frontlistitem">
-                                    <div class="frontendcontainer">
-                                        <div class="skills NODEJS">NODE JS</div>
-                                    </div>
-                                </li>
-                                <li class="frontlistitem">
-                                    <div class="frontendcontainer">
-                                        <div class="skills EXPRESSJS">EXPRESS JS</div>
-                                    </div>
-                                </li>
-                                <li class="frontlistitem ejs">
-                                    <div class="frontendcontainer">
-                                        <div class="skills EJS">EJS Embedded Javascript</div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <p>Other Developer Skills</p>
-                        <div class="otherdeveloperskills">
-                            <ul class="otherdevlist">
-                                <li class="frontlistitem">
-                                    <div class="frontendcontainer">
-                                        <div class="skills PYTHON">PYTHON</div>
-                                    </div>
-                                </li>
-                                <li class="frontlistitem">
-                                    <div class="frontendcontainer">
-                                        <div class="skills JAVA">JAVA</div>
-                                    </div>
-                                </li>
-                                <li class="frontlistitem">
-                                    <div class="frontendcontainer">
-                                        <div class="skills PHP">PHP</div>
-                                    </div>
-                                </li>
-                                <li class="frontlistitem">
-                                    <div class="frontendcontainer">
-                                        <div class="skills POSTGRES">POSTGRES</div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <h3 class="h3skills"><span class="bracket">{</span> Other Skills<span class="dots">...</span> <span class="bracket">}</span></h3>
-                    <div class="otherskills">
-                        <div class="frontendskills">
-                            <div class="backendskills">
-                                <ul class="backendlist">
-                                    <li class="backendlistitem">
-                                        <div class="backendcontainer">
+                            <p>Other Developer Skills</p>
+                            <div class="otherdeveloperskills">
+                                <ul class="otherdevlist">
+                                    <li class="frontlistitem">
+                                        <div class="frontendcontainer">
                                             <div class="skills PYTHON">PYTHON</div>
                                         </div>
                                     </li>
-                                    <li class="backendlistitem">
-                                        <div class="backendcontainer">
+                                    <li class="frontlistitem">
+                                        <div class="frontendcontainer">
                                             <div class="skills JAVA">JAVA</div>
                                         </div>
                                     </li>
-                                    <li class="backendlistitem">
-                                        <div class="backendcontainer">
-                                            <div class="skills CISCO">CISCO</div>
->>>>>>> 2b05a9d (Adding About Page)
+                                    <li class="frontlistitem">
+                                        <div class="frontendcontainer">
+                                            <div class="skills PHP">PHP</div>
+                                        </div>
+                                    </li>
+                                    <li class="frontlistitem">
+                                        <div class="frontendcontainer">
+                                            <div class="skills POSTGRES">POSTGRES</div>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+                        <h3 class="h3skills"><span class="bracket">{</span> Other Skills<span class="dots">...</span> <span class="bracket">}</span></h3>
+                        <div class="otherskills">
+                            <div class="frontendskills">
+                                <div class="backendskills">
+                                    <ul class="backendlist">
+                                        <li class="backendlistitem">
+                                            <div class="backendcontainer">
+                                                <div class="skills PYTHON">PYTHON</div>
+                                            </div>
+                                        </li>
+                                        <li class="backendlistitem">
+                                            <div class="backendcontainer">
+                                                <div class="skills JAVA">JAVA</div>
+                                            </div>
+                                        </li>
+                                        <li class="backendlistitem">
+                                            <div class="backendcontainer">
+                                                <div class="skills CISCO">CISCO</div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-<<<<<<< HEAD
-
+    
         </div>
     </section>
-
-</main>
-=======
-        </div>
-
-    </div>
-</section>
-
-
->>>>>>> 2b05a9d (Adding About Page)
-
-
-
-
-
-<%- include('partials/footer.ejs') %>
+    
+    
+    
+    
+    
+    
+    
+    <%- include('partials/footer.ejs') %>
